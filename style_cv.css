@@ -1,0 +1,89 @@
+@media all and (min-width: 1024px){
+ @font-face{
+    font-family: AguafinaScript-Regular;
+    src: url(AguafinaScript-Regular.ttf);
+ }
+ body{
+    background-image: url(CV_background.jpg);
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+ }
+ h1{
+    font-family: AguafinaScript-Regular;
+    font-size: 3em;
+ }
+ h2{
+    color: red;
+    font-family: AguafinaScript-Regular;
+    font-size: 2em;
+ }
+h1,h1+p{
+    text-align: center;
+    margin-bottom: 0;
+}
+img{
+    float: right;
+    border: 2px solid black;
+    box-shadow: 5px 5px 0px 0px;
+    margin-right: 5%;
+}
+section{ 
+	display: inline-block; 
+	vertical-align: top; 
+	width: 30%;  
+	margin-right: 2%;	
+}
+#liseret, #contenu{ 
+	display: inline-block;  
+	vertical-align: top;
+}
+#liseret{     
+	width: 10%; 
+	margin-right: 3%; 
+	height: 625px;
+	background-color: grey;   
+}
+#contenu{ 
+	width: 85%;
+}
+ }
+@media all and (max-width:1024px){
+  @font-face{
+    font-family: AguafinaScript-Regular;
+    src: url(AguafinaScript-Regular.ttf);
+ }
+ body{
+    background-image: url(CV_background.jpg);
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+ }
+ h1{
+    font-family: AguafinaScript-Regular;
+    font-size: 3em;
+ }
+ h2{
+    color: red;
+    font-family: AguafinaScript-Regular;
+    font-size: 2em;
+ }
+h1,h1+p{
+    text-align: left;
+}
+img{
+    float: right;
+    border: 2px solid black;
+    box-shadow: 5px 5px 0px 0px;
+}
+section{ 
+	display: block; 
+}
+#liseret{     
+ display: none;
+}
+#contenu{ 
+	width: 100%;
+ padding: 2%;
+}
+}
